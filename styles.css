@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url(./img/cool-background.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+
+header {
+  padding: 1rem;
+  background: rgba(243, 243, 243, 0.5);
+  /* background-color: #f3f3f3; */
+  /* opacity: 0.5; */
+  text-align: center;
+  font-size: 1.3em;
+  color: black;
+}
+
+.container {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* grid-gap: 5em; */
+}
+
+.poke-card {
+  height: fit-content;
+  width: fit-content;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  padding: 1em;
+  background-color: #f3f3f3;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.poke-img {
+  background-color: #dbd9d9;
+  margin-bottom: 0.2em;
+}
+
+.poke-id {
+  opacity: 0.7;
+}
+
+.poke-name {
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+.abilities {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grass {
+  background-color: #5ec576;
+  margin-top: 0.5em;
+  width: fit-content;
+  padding: 0.3em 0.8em;
+  border-radius: 1em;
+}
+
+.poison {
+  background-color: #c5905e;
+  margin-top: 0.5em;
+  width: fit-content;
+  padding: 0.3em 0.8em;
+  border-radius: 1em;
+}
